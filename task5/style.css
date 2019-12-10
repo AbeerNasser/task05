@@ -1,0 +1,352 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin-left: 10%;
+}
+/*header*/
+header{
+    text-align: center;
+    background-image: url("img/Banner-bg.jpg");
+    background-repeat: no-repeat;
+    height: 500px;
+    padding-bottom: 45%;
+    border-bottom: 100px solid #eee;
+}
+    /*nav*/
+    nav{
+        padding-top: 1%;
+        background-color: black;
+        height: 50px;
+        /* font-family: rubik; */
+    }
+    nav h1{
+        text-transform: uppercase;
+        color: #fff;
+        float: left;
+        margin-right: 20%;
+    }
+    span{
+        color: orange;
+    }
+        /*ul*/
+        nav ul{
+            list-style-type: none;
+            color: #fff;
+        }
+        nav ul li{
+            text-transform: capitalize;
+            display: inline-block;
+            margin-left: 6%;
+            padding: 4px;
+        }
+        nav ul li:hover{
+            background-color: rgb(49, 49, 109);
+            border-bottom: 2px solid orange;
+        }
+
+    /*content header*/
+    .contentheader{
+        width: 40%;
+        text-align: justify;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+    .contentheader >h1:first-child{
+        font-weight: bolder;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    /* .contentheader > h1:last-child{
+        color: orange;
+        text-transform: uppercase;
+    } */
+    .contentheader h1+h1{
+        color: orange;
+        text-transform: uppercase;
+        font-weight: normal;
+    }
+    .contentheader p{
+        margin-top: 3%;
+        color: #fff;
+        font-style: italic;
+    }
+    .contentheader button{
+        border: 1px solid #fff;
+        background-color: rgba(0,0,0,0.4);
+        padding: 2%;
+        text-transform: uppercase;
+        color: #fff;
+        margin-top: 3%;
+    }
+
+    .floatimg{
+        position: absolute;
+        top: 175px;
+        left: 565px;
+        box-shadow: 1px 1px 40px;
+        width: 55%;
+    }
+    .floatimg:focus .discrepimg{
+        height: 200px;
+        top: 175px;
+        left: 565px;
+    }
+    .discrepimg{
+        width: 55%;
+        padding: 2%;
+        color: #fff;
+        position: absolute;
+        top:546px;
+        left: 565px;
+        background-color:rgba(0,0,0,0.7);
+    }
+        .discrepimg .left{
+            float: left;
+        }
+        .discrepimg .left img{
+            width: 20px;
+        }
+       .discrepimg .left p{
+            display: inline-block;
+        }
+        .discrepimg .right{
+            float: right;
+        }
+        .discrepimg h3{
+            text-transform: uppercase;
+            font-family: sans-serif;
+        }
+        .discrepimg span{
+            padding-left: 40%;
+        }
+/*section one about us*/
+.secone{
+    text-align: center;
+}
+    .aboutus{
+        margin-top: 7%;
+        /* margin-bottom: 5%; padding-bottom: 3%; 
+         border-bottom: 2px solid orange; */
+    }
+        h2{
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: xx-large;
+            padding-bottom: 1%;
+        }
+        p{
+            color: rgb(185, 183, 183);
+        }
+        hr{
+            width: 20%;
+            margin: 3%;
+            margin-left: 40%;
+            border: 1px solid orange;
+        }
+        .btn3{
+            outline: 1px solid #eee;
+            width: fit-content;
+            margin: auto;
+        }
+        .btn3 button{
+            background: none;
+            border: none;
+            border-right: 1px solid #eee; 
+            color: rgb(185, 183, 183);
+            padding: 13px;
+            font-size: 1rem;
+        }
+        .btn3 button:last-child{
+            border: none;
+        }
+        .btn3 button:hover{
+            background-color: orange;
+            color: #fff;
+        }
+    .specialoffer{
+        padding-top: 5%;
+
+    }
+        .specialoffer .left{
+            width: 40%;
+            float: left;
+            position: relative;
+        }
+            .specialoffer .left img{
+                outline: 3px solid #fff;
+                width: 300px;
+                height: 200px;
+                box-shadow: 0px 3px 8px #ccc;
+            }
+            .specialoffer .left img:first-child{
+                position: absolute;
+                top: 0%;
+                left: 0%;
+                z-index: 1;
+            }
+            .specialoffer .left img +img{
+                position: absolute;
+                top: 20px;
+                left: -5%;
+                z-index: 2;
+            }
+        .specialoffer .right{
+            width: 60%;
+            float: right;
+            text-align: justify;
+        }
+        .specialoffer .right h3{
+            text-transform: uppercase;
+            font-size: x-large;
+        } 
+        .specialoffer .right h5{
+            text-transform: uppercase;
+            color: orange;
+        }
+        .specialoffer .right p{
+            color: rgb(185, 183, 183);
+            margin-top: 2%;
+        }
+/*section 2 our services*/
+    .sectwo{
+        margin-top: 22%;
+        clear: both;
+        background-image: url("img/Services-bg.jpg");
+    }
+        /*our services*/
+        .ourservices{
+            padding-top: 5%;
+            text-align: center;
+        }
+            .ourservices h2{
+                color: #fff;
+            }
+            .div4{
+                margin-top: 5%;
+            }
+            .divs4 div{
+                width:20%;
+                height: 300px;
+                padding-top: 6%;
+                opacity: 0.5;
+                display: inline-block;
+                margin-right: 2%;
+                margin-bottom: 10%;
+                box-shadow: 1px 1px 7px black;
+            }
+            .divs4 .div1{
+                background-image: url("img/Development-bg.jpg"); 
+            }
+            .divs4 .div1:hover,.divs4 .div2:hover,.divs4 .div3:hover,.divs4 .div4:hover{
+                opacity: 1;
+                transition: all 1s ease-in-out;
+            }
+            .divs4 div h3{
+                text-transform: uppercase;
+                color: #fff;
+                margin-top: 3%;
+            }
+            .divs4 .div2{
+                background-image: url("img/desgin-bg.jpg"); 
+            }
+            .divs4 .div3{
+                background-image: url("img/concept-bg.jpg"); 
+            }
+            .divs4 .div4{
+                background-image: url("img/systam-bg.jpg"); 
+            }
+
+/*section 3 pricing*/
+
+.secthree{
+    background-color: #eee;
+    padding-bottom: 8%;
+}  
+    .pricing{
+        padding-top: 5%;
+        text-align: center;
+    } 
+    .pricing p{
+        color: rgb(109, 105, 105);
+    } 
+    table{
+        margin: auto;
+    }  
+    table tr{
+    background-color: #fff;
+    } 
+    td{
+        padding:25px;
+        text-transform: uppercase;
+        border-right: none;
+    } 
+    tr td:first-child{
+        background-color: orange;
+    }  
+    tr td:nth-child(2){
+        background-color: rgb(36, 35, 35);
+        color: orange;
+    } 
+    tr td:last-child{
+        background-color: rgb(36, 35, 35);
+        color: #fff;
+    }           
+/*contactus*/
+.secfour{
+    background-image: url("img/Contact-bg.jpg");
+    padding-bottom: 5%;
+}
+
+
+.secfive{
+    background-color: black;
+    height: 400px;
+    padding-top: 3%;
+}
+    .getintouch .left{
+        display: inline-block;
+        width: 40%;
+    }
+        .getintouch input ,.getintouch textarea, .getintouch button {
+            display: block;
+            width: 95%;
+            padding: 1%;
+            margin-bottom: 5%;
+        }
+        .getintouch button{
+            background-color: orange;
+            color:#fff;
+            border: none;
+            padding: 2%;
+        }
+    .getintouch .right{ 
+        display: inline-block;
+        width: 50%;
+    }
+        .getintouch h2{
+            color: orange;
+            padding-bottom: 10px;
+        }
+        .getintouch .right div{
+            margin-top: 6%;
+        }
+
+        .getintouch img{
+            width: 20px;
+            margin-right: 3%;
+        }
+
+/*footer*/
+footer{
+    text-align: center;
+    background-image: url("img/Contact-bg.jpg");
+}
+footer p{
+    text-transform: uppercase;
+    padding: 3%;
+}
+    
